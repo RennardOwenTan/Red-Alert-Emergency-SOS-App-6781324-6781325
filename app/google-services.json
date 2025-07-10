@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "995683743212",
+    "project_id": "emergencysms-2f43e",
+    "storage_bucket": "emergencysms-2f43e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995683743212:android:43b97be03e6913dfc5fcc9",
+        "android_client_info": {
+          "package_name": "com.example.emergencysms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYZHj2N10BQFXj3eW7NfrxMrbaXkvDY1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

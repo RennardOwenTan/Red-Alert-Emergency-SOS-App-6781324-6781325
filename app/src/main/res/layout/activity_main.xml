@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif-light"
+        android:text="12:34"
+        android:textColor="@android:color/white"
+        android:textSize="72sp" />
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTime"
+        android:layout_centerHorizontal="true"
+        android:text="Tuesday, July 9"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/btnSendSOS"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/circle_white_transparent"
+        android:contentDescription="Emergency"
+        android:padding="12dp"
+        android:src="@drawable/ic_emergency_discreet" />
+
+    <TextView
+        android:id="@+id/txtEmergency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnSendSOS"
+        android:layout_centerHorizontal="true"
+        android:text="Emergency"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:visibility="invisible" />
+
+    <View
+        android:id="@+id/hiddenContactsArea"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent" />
+</RelativeLayout>
